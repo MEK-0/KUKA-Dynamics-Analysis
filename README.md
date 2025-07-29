@@ -22,6 +22,19 @@ A comprehensive desktop application for analyzing KUKA robot dynamics using Newt
 - **Real-time Feedback**: Immediate calculation results and warnings
 - **Multi-tab Layout**: Organized sections for different analysis types
 
+### Main Interface View
+![Main Dashboard](readmephoto/kukap1.PNG)
+*Intuitive multi-tab UI with real-time joint input and method selection*
+
+### Torque Analysis (Newton-Euler)
+![Main Dashboard](readmephoto/kukap2.PNG)
+*Real-time torque vs. time plot generated using Newton-Euler method*
+
+### Analysis Report Output
+![Main Dashboard](readmephoto/kukap3.PNG)
+
+*Automatically generated joint-wise torque, energy and dynamic parameter summary as a formatted analysis report.*
+
 ## Installation
 
 ### Prerequisites
