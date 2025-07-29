@@ -1,0 +1,45 @@
+============================================================
+KUKA ROBOT ANALYSIS REPORT
+============================================================
+Robot Model: KR6 R900
+Analysis Date: 2025-07-29 01:02:02
+============================================================
+
+ROBOT SPECIFICATIONS:
+------------------------------
+name: KR6 R900
+model: KR6 R900
+dof: 6
+max_payload: 6.0
+reach: 0.901
+repeatability: 0.02
+max_speed: 2.62
+total_mass: 23.5
+total_inertia: 0.643
+static_torques: [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0)]
+links: [{'mass': 4.8, 'length': 0.25, 'inertia': 0.15, 'center_of_mass': 0.125, 'joint_type': 'revolute'}, {'mass': 11.2, 'length': 0.56, 'inertia': 0.35, 'center_of_mass': 0.28, 'joint_type': 'revolute'}, {'mass': 3.8, 'length': 0.035, 'inertia': 0.08, 'center_of_mass': 0.0175, 'joint_type': 'revolute'}, {'mass': 2.5, 'length': 0.0, 'inertia': 0.04, 'center_of_mass': 0.0, 'joint_type': 'revolute'}, {'mass': 0.8, 'length': 0.0, 'inertia': 0.015, 'center_of_mass': 0.0, 'joint_type': 'revolute'}, {'mass': 0.4, 'length': 0.0, 'inertia': 0.008, 'center_of_mass': 0.0, 'joint_type': 'revolute'}]
+
+TORQUE ANALYSIS:
+------------------------------
+Newton-Euler Method:
+
+Lagrange Method:
+  Joint 1: 5.8860 Nm ✓
+  Joint 2: 30.7642 Nm ✓
+  Joint 3: 0.6524 Nm ✓
+  Joint 4: 0.0000 Nm ✓
+  Joint 5: 0.0000 Nm ✓
+  Joint 6: 0.0080 Nm ✓
+
+ENERGY ANALYSIS:
+------------------------------
+kinetic_energy: 0.0040 J
+potential_energy: 162.9392 J
+total_energy: 162.9432 J
+
+SUMMARY:
+------------------------------
+Max Lagrange Torque: 30.7642 Nm
+============================================================
+Analysis completed successfully.
+============================================================
