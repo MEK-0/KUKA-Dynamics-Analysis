@@ -46,7 +46,7 @@ A comprehensive desktop application for analyzing KUKA robot dynamics using Newt
 ### Setup
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/MEK-0/KUKA-Dynamics-Analysis.git>
 cd KUKA-Dynamics-Studio
 ```
 
